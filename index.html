@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Miss My Beach</title>
-    </style>
+   <!-- </style>
         /* simple toggle button */
         .toggle-switch {
             position: relative;
@@ -55,6 +55,7 @@
             transform: translateX(26px);
         }
     </style>
+    -->
 
 </head>
 <body>
@@ -79,8 +80,42 @@
             <span class="slider"></span>
         </label>
         
+        <h2>Sounds of the Beach</h2>
+        <!--Slider with all the beach sounds to adjust the sound-->
+        <label class="toggle-switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+
+        <h2>Spotify</h2>
         <!-- Spotify Widget -->
         <iframe src="https://open.spotify.com/embed/your_spotify_uri" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <label class="toggle-switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+
+        <h2>Pomodoro Timer</h2>
+        <!-- Timer that will always be displayed-->
+        <p>A productivity timer to keep us accountable :) </p>
+
+        <h2>To Do List</h2>
+        <!-- Unordered list with of things we need to get done-->
+        <label class="toggle-switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+
+        <ul>
+            <li>Make it pretty</li>
+            <li>Make it functional</li>
+        </ul>
+
+        <!--Dark Mode button-->
+        <button type="button">Dark Mode</button>
+
+        <!--Save preferences button -->
+        <button type="button">Save preferences</button>
     </main>
 </body>
 </html>
